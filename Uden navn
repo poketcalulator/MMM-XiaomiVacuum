@@ -1,0 +1,26 @@
+const miio = require('miio');
+var fan = null;
+
+miio.device({ address: 'ip', token: 'token' })
+  .then(device => {
+      console.log('Connected to', device)
+      device.defineProperty('power');
+      device.loadProperties(['power']); // this is working fine, the property is loaded and updated
+      device.on('power', power => console.log('Power changed to', power)); // THIS DOES NOT WORK
+      device.on('powerChanged', power => console.log('Power changed to', power));  // THIS DOES NOT WORK
+      this.fan = device;
+   }).catch(err => {
+      console.log(err);
+   });
+
+
+
+// this is working fine
+this.fan.call('set_power', [ 'on' ])
+  .then(console.log)
+  .catch(console.error);
+
+// also this is working fine
+this.fan.call('get_prop', [ 'power'])
+  .then(console.log)
+  .catch(console.error);
