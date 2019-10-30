@@ -35,7 +35,7 @@ modules: [
 
 ## Obtain Mi Home device token
 The best guide I have been able to find
-[Obtain Mi Home device token](https://github.com/jghaanstra/com.xiaomi-miio/blob/master/docs/obtain_token.md#ios-users)
+[Obtain Mi Home device token](https://github.com/poketcalulator/MMM-XiaomiVacuum/blob/master/image/MMM-XiaomiVacuum.png)
 
 
 ## Credits
