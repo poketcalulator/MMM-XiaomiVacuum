@@ -1,9 +1,7 @@
 # MMM-XiaomiVacuum
-This an module for the MagicMirror 2 by MichMich
+This an module for the [MagicMirror](https://github.com/MichMich/MagicMirror) 2 by MichMich
 
-[MagicMirror](https://github.com/MichMich/MagicMirror).
-
-This module can display various status information from the Xiaomi robot vacuum cleaner.
+My module can display various status information from the Xiaomi robot vacuum cleaner.
 
 ### Example
 ![image](https://github.com/poketcalulator/MMM-XiaomiVacuum/blob/master/image/MMM-XiaomiVacuum.png)
