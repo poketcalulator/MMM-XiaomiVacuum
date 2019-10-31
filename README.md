@@ -40,5 +40,5 @@ The best guide I have been able to find
 
 ## Credits
 - To [Michael Teeuw](https://magicmirror.builders)
-- To Andreas Holstenson / aholstenson [miIO Device Library](https://github.com/aholstenson/miio)
+- To Andreas Holstenson / aholstenson [miIO Device Library](https://github.com/aholstenson/miio) without it it would not be possible (for me ¯\_(ツ)_/¯  )
 - To Reagan Elm / relm923which [MMM-Roomba](https://github.com/relm923/MMM-Roomba) on which my module is based.
