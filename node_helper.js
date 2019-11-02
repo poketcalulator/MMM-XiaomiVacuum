@@ -72,16 +72,17 @@ module.exports = NodeHelper.create({
             })
             .then(device => {
 
-                // console.log('Connected to', device.model()); // VIRKER !!
-                // console.log('Model         : ' + device.miioModel);
-                // console.log('State         : ' + device.property('state'));
-                // console.log('Battery Level : ' + device.property('batteryLevel'));
-                //console.log('Fan Speed     : ' + device.property('fanSpeed'));
-                //console.log('mainBrush Work Time : ' + device.property('mainBrushWorkTime'));
-                //console.log('sideBrush Work Time : ' + device.property('sideBrushWorkTime'));
-                //console.log('filter Work Time : ' + device.property('filterWorkTime'));
-                //console.log('sensor Dirty Time : ' + device.property('sensorDirtyTime'));
-
+                /*
+                console.log('Connected to', device.model());
+                console.log('Model         : ' + device.miioModel);
+                console.log('State         : ' + device.property('state'));
+                console.log('Battery Level : ' + device.property('batteryLevel'));
+                console.log('Fan Speed     : ' + device.property('fanSpeed'));
+                console.log('mainBrush Work Time : ' + device.property('mainBrushWorkTime'));
+                console.log('sideBrush Work Time : ' + device.property('sideBrushWorkTime'));
+                console.log('filter Work Time : ' + device.property('filterWorkTime'));
+                console.log('sensor Dirty Time : ' + device.property('sensorDirtyTime'));
+                */
                 Object.assign(self.stats, {
                     name: device.miioModel.toUpperCase(),
                     batteryPercent: device.property('batteryLevel'),
