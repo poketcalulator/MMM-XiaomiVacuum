@@ -7,7 +7,7 @@
 
 
 const NodeHelper = require('node_helper');
-const miio = require('./miio');
+const miio = require('miio');
 
 const REQUIRED_FIELDS = ['token', 'ipAddress'];
 
