@@ -33,7 +33,7 @@ modules: [
 
 |Option|Default|Description|
 |:---|:---:|:---|
-|`token`|REQUIRED|Enter your Xiaomi Vacuum API token here (see below how it can be done)|
+|`token`|REQUIRED|Enter your Xiaomi Vacuum API token here, 32 characters (see below how it can be done)|
 |`ipAddress`|REQUIRED|Enter your Xiaomi Vacuum IP address here|
 
 
