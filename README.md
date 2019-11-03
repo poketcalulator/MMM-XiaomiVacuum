@@ -7,7 +7,7 @@ My module can display various status information from the Xiaomi robot vacuum cl
 ![image](https://github.com/poketcalulator/MMM-XiaomiVacuum/blob/master/image/MMM-XiaomiVacuum.png)
 
 ## Installation
-1. Open a terminal session, navigate to your MagicMirror's `modules` folder and execute
+1. Open a terminal session, navigate to your MagicMirror's `modules` folder and execute:
 
 `git clone https://github.com/poketcalulator/MMM-XiaomiVacuum`
 
