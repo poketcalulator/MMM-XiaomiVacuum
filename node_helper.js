@@ -7,7 +7,8 @@
 
 
 const NodeHelper = require('node_helper');
-const miio = require('miio');
+const path       = require('path');
+const miio = require('./node_modules/miio');
 
 const REQUIRED_FIELDS = ['token', 'ipAddress'];
 
@@ -88,10 +89,10 @@ module.exports = NodeHelper.create({
                     batteryPercent: device.property('batteryLevel'),
                     phase: device.property('state'),
                     fanspeed: device.property('fanSpeed'),
-                    filterworktime: device.property('filterWorkTime'),
+                    // filterworktime: device.property('filterWorkTime'),
                     sidebrush: device.property('sideBrushWorkTime'),
                     mainBrush: device.property('mainBrushWorkTime'),
-                    sensordirtytime: device.property('sensorDirtyTime')
+                    // sensordirtytime: device.property('sensorDirtyTime')
                 });
 
                 device.destroy();

@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/poketcalulator/MMM-XiaomiVacuum#readme",
   "dependencies": {
-    "miio": "^0.15.6"
+    "miio": "^0.15.6",
+    "path": "^0.12.7"
   }
 }

@@ -75,18 +75,18 @@ Module.register('MMM-XiaomiVacuum', {
 			<tr>
 				${self.RenderFanspeed()}
 			</tr>
-			<tr>
+		<!-- <tr>
 				${self.RenderFilterWorkTime()}
-			</tr>
+			</tr> -->
       <tr>
 				${self.RenderSideBrushWorkTime()}
 			</tr>
 			<tr>
 				${self.RendermainBrushWorkTime()}
 			</tr>
-			<tr>
+		<!-- <tr>
 				${self.RendersensorDirtyTime()}
-			</tr>
+			</tr> -->
 		`;
 
         return wrapper;
