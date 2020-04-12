@@ -3,6 +3,9 @@ This an module for the [MagicMirror](https://github.com/MichMich/MagicMirror) 2 
 
 My module can display various status information from the Xiaomi robot vacuum cleaner.
 
+##
+Version 1.1
+
 ### Example
 ![image](https://github.com/poketcalulator/MMM-XiaomiVacuum/blob/master/image/MMM-XiaomiVacuum11.png)
 
