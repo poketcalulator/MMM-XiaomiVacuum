@@ -231,6 +231,9 @@ Module.register('MMM-XiaomiVacuum', {
             case 38: // gen1, gen2 and gen3
                 fanSpeedtxt = self.translate('FANSPEED_QUIET');
                 break;
+            case 101: // changed in firmware 3.5.7_002008?
+                fanSpeedtxt = self.translate('FANSPEED_QUIET');
+                break;
             case 105: // gen 2
                 fanSpeedtxt = self.translate('FANSPEED_MOPPING');
                 break;
@@ -238,6 +241,9 @@ Module.register('MMM-XiaomiVacuum', {
                 fanSpeedtxt = self.translate('FANSPEED_QUIET');
                 break;
             case 60: // gen1, gen2 and gen3
+                fanSpeedtxt = self.translate('FANSPEED_BALANCED');
+                break;
+            case 102: // // changed in firmware 3.5.7_002008?
                 fanSpeedtxt = self.translate('FANSPEED_BALANCED');
                 break;
             case 75: // gen2
