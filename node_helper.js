@@ -1,9 +1,10 @@
 /* Magic Mirror
- * Node Helper: MMM-XiaomiVacuum
- *
- * By John Kristensen
- * MIT Licensed.
- */
+* Node Helper: MMM-XiaomiVacuum
+*
+* ver 1.1
+* By John Kristensen
+* MIT Licensed.
+*/
 
 
 const NodeHelper = require('node_helper');

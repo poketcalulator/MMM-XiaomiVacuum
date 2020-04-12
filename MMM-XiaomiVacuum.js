@@ -1,11 +1,11 @@
 /* global Module */
 
 /* Magic Mirror
- * Module: MMM-XiaomiVacuum
- * ver 1.0
- * By John Kristensen
- * MIT Licensed.
- */
+* Module: MMM-XiaomiVacuum
+* ver 1.1
+* By John Kristensen
+* MIT Licensed.
+*/
 
 Module.register('MMM-XiaomiVacuum', {
     defaults: {
