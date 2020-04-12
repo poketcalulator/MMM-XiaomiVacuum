@@ -4,7 +4,7 @@ This an module for the [MagicMirror](https://github.com/MichMich/MagicMirror) 2 
 My module can display various status information from the Xiaomi robot vacuum cleaner.
 
 ### Example
-![image](https://github.com/poketcalulator/MMM-XiaomiVacuum/blob/master/image/MMM-XiaomiVacuum.png)
+![image](https://github.com/poketcalulator/MMM-XiaomiVacuum/blob/master/image/MMM-XiaomiVacuum11.png)
 
 ## Installation
 1. Open a terminal session, navigate to your MagicMirror's `modules` folder and execute:
